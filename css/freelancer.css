@@ -129,6 +129,12 @@ section h2 {
 .img-fluid.mb-5.d-block.mx-auto {
   border: 4px solid #072D40;
   border-radius: 5px;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 #mainNav .navbar-toggler {
@@ -248,10 +254,20 @@ header.masthead h2 {
 
 @media (min-width: 768px) {
   .portfolio-modal .portfolio-modal-dialog {
-    min-height: 100vh;
-    padding: 5rem;
+    min-height: auto;
+    padding: 3rem;
     margin: 3rem calc(3rem - 8px);
   }
+}
+
+.portfolio-modal {
+  max-width: 70%;
+  margin: 0 auto 0 auto;
+}
+
+.img-box {
+  max-width: 60%;
+  margin: 0 auto 0 auto;
 }
 
 .floating-label-form-group {
